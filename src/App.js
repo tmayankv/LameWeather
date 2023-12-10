@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import sunset from './components/images/weather-forecast-background.jpg'
 import sunny from './components/images/sunny.jpg'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";

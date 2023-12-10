@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Forecast from './Forecast';
 import Alldesc from './Alldesc';
-import Quotes from './Quotes';
 
 const City = (props) => {
   const [weatherData, setWeatherData] = useState({
-    location: props.loc,
+    location: "sirsa",
     weather: {},
     wdesc: {},
     sys: {},
