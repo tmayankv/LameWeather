@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LameWeather/static/css/main.fa021e85.css",
+    "main.js": "/LameWeather/static/js/main.221fe10f.js",
+    "static/js/787.d9312eb8.chunk.js": "/LameWeather/static/js/787.d9312eb8.chunk.js",
+    "static/media/weather-forecast-background.jpg": "/LameWeather/static/media/weather-forecast-background.1f9f880d7a2ac0169e0b.jpg",
+    "static/media/sunny.jpg": "/LameWeather/static/media/sunny.b9a8ba90ffa5dc2406c4.jpg",
+    "index.html": "/LameWeather/index.html",
+    "main.fa021e85.css.map": "/LameWeather/static/css/main.fa021e85.css.map",
+    "main.221fe10f.js.map": "/LameWeather/static/js/main.221fe10f.js.map",
+    "787.d9312eb8.chunk.js.map": "/LameWeather/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa021e85.css",
+    "static/js/main.221fe10f.js"
+  ]
+}
