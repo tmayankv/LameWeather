@@ -40,10 +40,9 @@ const City = (props) => {
     };
 
     fetchWeather();
-  }, [weatherData.location]);
+  }, []);
 
   function selectImage(describe) {
-    let ilogo = undefined;
     const imgw = document.getElementById("wdetails");
     const isDaytime = new Date().getHours() >= 5 && new Date().getHours() < 12;
     const isNighttime = new Date().getHours() >= 20 || new Date().getHours() <5;
@@ -103,7 +102,7 @@ const City = (props) => {
       {weatherData.cityname !== null ? (
         <div className="container justify-content-center" id="wea1">
           <div className="card m-5" id="wea" style={{ width: '21rem', height: '27rem', zIndex: '16', borderRadius: '15%' }}>
-            <div className="card-body" id="wdetails" style={{ position: 'relative', borderRadius: '15%' }}>
+            <div className="card-body" id="wdetails" style={{ position: 'relative', borderRadius: '15%', background: 'url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e47a3354827733.596dc61650daa.gif")' }}>
               <div className="d-flex justify-content-between mx-3 mt-1 ">
                 <img src="https://icons8.com/icon/1PQfP9t1iMCJ/night" style={{ width: '130px'}} id="we_img" alt="weather ICon" />
                 <div className="mt-3">
