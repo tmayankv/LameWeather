@@ -4,7 +4,7 @@ import Alldesc from './Alldesc';
 
 const City = (props) => {
   const [weatherData, setWeatherData] = useState({
-    location: "sirsa",
+    location: props.loc,
     weather: {},
     wdesc: {},
     sys: {},
@@ -13,8 +13,9 @@ const City = (props) => {
     cityname: null,
     description: '',
   });
-
+  
   useEffect(() => {
+    console.log(weatherData.location)
     const fetchWeather = async () => {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${weatherData.location}&units=metric&appid=a2af3cc5b2c23b53f5c256f011eb3494`;
       try {
