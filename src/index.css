@@ -1,0 +1,168 @@
+
+#wea1{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+  align-items: center;
+}
+#wdetails{
+  box-shadow: inset 3px 3px 20px black,3px 3px 20px black;
+}
+
+h5:nth-child(1),h5:nth-child(2){
+  height: 2.2rem;
+  transition: all 1s;
+}
+#cn h5:nth-child(1):hover,#cn h5:nth-child(2):hover{
+font-size: 2rem;
+}
+.det {
+  z-index: 15;
+  position: relative;
+  align-items: center;
+}
+.graph{
+  z-index: 18;
+}
+#allchart{
+position: relative;
+  z-index: 19;
+}
+#forBody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+  overflow: hidden;
+    font-family: 'Cinzel', serif;
+    font-weight:bolder;
+}
+#forBox{
+  background:linear-gradient(to top, rgb(0, 0, 255,.45) 5%, rgb(255, 165, 0,0.45)  92%) ;
+  transition-property: rotate deg;
+  transition-duration: 1.6s;
+  width: 205px;
+  height: 155px;
+  overflow: hidden;
+  box-shadow: 2px 2px 20px black,
+  inset 2px 2px 20px black;
+  cursor:no-drop;
+}
+#retbtn{
+  background-color: rgba(255, 0, 0, 0.532);
+  z-index: 1;
+  border-radius: 50%;
+  height: 35px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+#cont_ret{
+  height: 70px;
+  width: 70px;
+  background-color: rgba(0, 0, 255, 0.482);
+  display: flex;
+  position: relative;
+justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 12;
+}
+
+#forBox:hover{
+  scale: 1.2;
+  background:linear-gradient(to top, rgb(0, 0, 255,0.5) 5%, rgb(255, 165, 0)  92%) ;
+  }
+.wind1{
+  position: relative;
+  top: -60px;
+  left: 120px;
+}
+#forBox:hover #fTemp{
+  animation: example 6s infinite;
+  overflow: hidden;
+}
+@keyframes example{
+0% {
+  top: -35px;
+left:60px;
+opacity: 0.5;
+font-size: 9rem;
+}
+50% { top: -35px;
+  left:-450px;
+  opacity: 0.5;
+  font-size: 9rem;
+  }
+100% {
+  top: -35px;
+  left:60px;
+opacity: 0.5;
+font-size: 9rem;
+}
+}
+#fTemp{
+  position: absolute;
+  top:-10px;
+  height: 180px;
+  width: 600px;
+}
+#back{
+  width:100%;
+  height:100%;
+  position: absolute;
+  opacity: 0;
+  color: #121a30;
+}
+#weBox{
+  width: 350px;
+  flex-wrap: wrap;
+}
+
+#back2{
+  width:100%;
+  height:100%;
+  opacity: 0.6;
+  -webkit-box-reflect: below;
+  color: #121a30;
+  position: absolute;
+}
+
+#felements{
+  border-radius: 10px;
+  padding: 6px 0px;
+}
+.recharts-text{
+  fill: #fff;
+  margin-top:10px;
+}
+#forecastBtn{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+
+#forecast{
+  width:64%;
+  border-radius:15px;
+  color:white;
+  background: linear-gradient(to top,#121a30 14% , #262121 56%);
+  overflow:hidden
+
+}
+@media screen and (max-width:700px){
+#forecast{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1000px) {
+  
+}
