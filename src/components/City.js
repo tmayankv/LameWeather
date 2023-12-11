@@ -108,7 +108,7 @@ const City = (props) => {
                 <div className="mt-3">
                   <h5 className="card-title text-center">
                     <em>
-                      {weatherData.cityname},{weatherData.sys.country}
+                      {weatherData.cityname},{weatherData?.sys?.country}
                     </em>
                   </h5>
                   <h3 className="card-title text-center m-0 p-0">
