@@ -45,7 +45,7 @@ const City = (props) => {
   function selectImage(describe) {
     const imgw = document.getElementById("wdetails");
     const isDaytime = new Date().getHours() >= 5 && new Date().getHours() < 12;
-    const isNighttime = new Date().getHours() >= 20 || new Date().getHours() <5;
+    const isNighttime = new Date().getHours() >= 20;
     const isEveningTime= new Date().getHours()>=16 && new Date().getHours()<20
     const isAfternoonTime= new Date().getHours()>=12 && new Date().getHours()<16
      
